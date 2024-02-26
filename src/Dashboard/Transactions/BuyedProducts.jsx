@@ -1,7 +1,7 @@
 
 const BuyedProducts = () => {
     return (
-        <div>
+        <div className="pb-10">
             <h4 className="font-semibold bg-gray-300 mt-3 py-2 pl-2 mr-2">Order Details</h4>
             <div className="flex flex-col lg:flex-row">
                 {/* ordered Products */}

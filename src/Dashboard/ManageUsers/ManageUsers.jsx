@@ -154,7 +154,7 @@ const ManageUsers = () => {
                     </table>
                 </div>
             </div>
-            <div className="join flex justify-center pt-10">
+            <div className="join flex justify-center py-10">
                 <input className="join-item btn btn-square" type="radio" name="options" aria-label="1" checked />
                 <input className="join-item btn btn-square" type="radio" name="options" aria-label="2" />
                 <input className="join-item btn btn-square" type="radio" name="options" aria-label="3" />

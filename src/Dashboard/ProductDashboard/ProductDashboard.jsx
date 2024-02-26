@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const ProductDashboard = () => {
     const navigate = useNavigate();
     return (
-        <div>
+        <div className="pb-10">
             <h4 className="font-semibold bg-gray-300 mt-3 py-2 pl-2 mr-2">Manage All Products</h4>
             {/* large device showing table */}
             <div className="hidden md:block shadow-lg mt-1 px-6 mr-2 rounded-lg">

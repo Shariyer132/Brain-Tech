@@ -3,6 +3,7 @@ import { TbCategoryPlus } from "react-icons/tb";
 import { FaBoxOpen, FaHome, FaUsers } from "react-icons/fa";
 import { AiOutlineTransaction } from "react-icons/ai";
 import Navbar from "../shared/Navbar";
+import Footer from "../shared/Footer";
 
 const Dashboard = () => {
     return (
@@ -27,6 +28,7 @@ const Dashboard = () => {
                 </div>
                 <div className="lg:w-5/6 md:w-4/6 w-full"><Outlet /></div>
             </div>
+            <Footer/>
         </div>
     );
 };
