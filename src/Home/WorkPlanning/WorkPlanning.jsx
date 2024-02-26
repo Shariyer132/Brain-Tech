@@ -7,7 +7,7 @@ const WorkPlanning = () => {
                     <p className='text-lg'>WORKING PROCESS</p>
                     <h2 className="text-4xl max-w-64 font-bold leading-tight pb-7 pt-2">Our Working Process - How We Work For Our Customers</h2>
                     <div className="card-actions">
-                        <button className="btn btn-primary">Contact Us</button>
+                        <button className="btn bg-gradient-to-tr from-[#0F359E] to-[#4E95ED] hover:from-[#4E95ED] hover:to-[#0F359E] text-lg text-white px-9 border-0">Contact Us</button>
                     </div>
                 </div>
             </div>

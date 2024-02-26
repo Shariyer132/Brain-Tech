@@ -44,7 +44,7 @@ const PricingPlan = () => {
                         </div>
                     </div>
                     <div className="card-actions justify-center -mb-5">
-                        <button className="btn btn-primary px-10 rounded-full">Buy Now</button>
+                        <button className="btn bg-gradient-to-tr from-[#0F359E] to-[#4E95ED] hover:from-[#4E95ED] hover:to-[#0F359E] text-lg text-white px-9 border-0 rounded-full">Buy Now</button>
                     </div>
                 </div>
                 {/* card two */}
@@ -63,26 +63,26 @@ const PricingPlan = () => {
                     <div className="max-w-72 mx-auto w-full flex flex-col gap-5 py-10">
                         <div className="flex items-center justify-between">
                             <p>Powerful Admin Panel</p>
-                            <span className="text-lg font-extrabold text-blue-800">✓</span>
+                            <span className="text-lg font-extrabold">✓</span>
                         </div>
 
                         <div className="flex items-center justify-between">
                             <p>2 Native Android App</p>
-                            <span className="text-lg font-extrabold text-blue-800">✓</span>
+                            <span className="text-lg font-extrabold ">✓</span>
                         </div>
 
                         <div className="flex items-center justify-between">
                             <p>Multi-Language Support</p>
-                            <span className="text-lg font-extrabold text-blue-800">✓</span>
+                            <span className="text-lg font-extrabold ">✓</span>
                         </div>
 
                         <div className="flex items-center justify-between">
                             <p>Support via E-mail and Phone</p>
-                            <span className="text-lg font-extrabold text-blue-800">✓</span>
+                            <span className="text-lg font-extrabold ">✓</span>
                         </div>
                     </div>
                     <div className="card-actions justify-center -mb-5">
-                        <button className="btn btn-primary px-10 rounded-full">Buy Now</button>
+                        <button className="btn bg-gradient-to-tr from-[#0F359E] to-[#4E95ED] hover:from-[#4E95ED] hover:to-[#0F359E] text-lg text-white px-9 border-0 rounded-full">Buy Now</button>
                     </div>
                 </div>
                 {/* card three */}
@@ -120,7 +120,7 @@ const PricingPlan = () => {
                         </div>
                     </div>
                     <div className="card-actions justify-center -mb-5">
-                        <button className="btn btn-primary px-10 rounded-full">Buy Now</button>
+                        <button className="btn bg-gradient-to-tr from-[#0F359E] to-[#4E95ED] hover:from-[#4E95ED] hover:to-[#0F359E] text-lg text-white px-9 border-0 rounded-full">Buy Now</button>
                     </div>
                 </div>
       

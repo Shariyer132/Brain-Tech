@@ -74,7 +74,7 @@ const ContactPage = () => {
                                 <textarea name="" id="" cols="30" placeholder='Your message Here' className='textarea bg-[#F6F7F9] textarea-bordered' rows="5"></textarea>
                             </div>
                             <div className=" mt-6">
-                                <input type="submit" value="Submit Now" className="btn rounded-full text-white btn-primary" />
+                                <input type="submit" value="Submit Now" className="btn bg-gradient-to-tr from-[#0F359E] to-[#4E95ED] hover:from-[#4E95ED] hover:to-[#0F359E] border-0 text-white px-9 rounded-full text-lg" />
                             </div>
                         </form>
                     </div>

@@ -8,7 +8,7 @@ const Banner = () => {
                 <div className="max-w-xl text-left">
                     <h1 className="mb-5 text-5xl leading-snug font-bold">IT Consulting Services For Your Business</h1>
                     <p className="mb-5 text-lg font-medium leading-normal">We are leading technology solutions providing company all over the world doing over 40 years.</p>
-                    <button className="btn btn-primary">Get Started</button>
+                    <button className="btn bg-gradient-to-tr from-[#0F359E] text-white to-[#4E95ED] border-0">Get Started</button>
                 </div>
             </div>
             {/* form */}
@@ -32,7 +32,7 @@ const Banner = () => {
                         <input type="password" placeholder="password" className="input input-bordered" required />
                     </div>
                     <div className="form-control mt-6">
-                        <input type="submit" className='btn btn-primary' value="Submit Now" />
+                        <input type="submit" className='btn bg-gradient-to-tr from-[#0F359E] to-[#4E95ED] border-0 text-white' value="Submit Now" />
                     </div>
                 </form>
             </div>

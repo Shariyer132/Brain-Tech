@@ -14,7 +14,7 @@ const Projects = () => {
                 <div className='max-w-7xl mx-auto'>
                     <p className="text-center text-white">PROJECT</p>
                     <h2 className="text-4xl font-bold text-center mx-auto py-5 pb-12 leading-tight text-white max-w-lg">We Are Offering All Kinds of IT Solutions Services</h2>
-                    <div className=''>
+                    <div className=' px-5'>
                         <Swiper
                             breakpoints={{
                                 890: {

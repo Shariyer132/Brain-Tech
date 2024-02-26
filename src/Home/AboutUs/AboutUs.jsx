@@ -52,7 +52,7 @@ const AboutUs = () => {
                     <progress className="progress progress-info" value={78} max="100"></progress>
                 </div>
                 <div>
-                    <button className='btn text-white btn-info'>Learn More</button>
+                    <button className='btn bg-gradient-to-tr from-[#0F359E] to-[#4E95ED] hover:from-[#4E95ED] hover:to-[#0F359E] border-0 text-white px-9 rounded-full text-lg'>Learn More</button>
                 </div>
             </div>
         </div>
