@@ -26,7 +26,7 @@ const Navbar = () => {
     return (
         <div className="navbar justify-between bg-blue-400 px-10">
             <div className="navbar-start">
-                <a className="btn btn-ghost text-xl"><img src={logo} className='max-w-40' alt="" /></a>
+                <Link to="/" className="btn btn-ghost text-xl"><img src={logo} className='max-w-40' alt="" /></Link>
             </div>
             {/* moblie view */}
             <main className="md:hidden">
@@ -41,10 +41,12 @@ const Navbar = () => {
 
             {/* large device view */}
             <div className="flex-none hidden md:block">
-                <ul className="menu menu-horizontal text-lg font-medium">
-                    <li><a>Home</a></li>
-                    <li><a>About</a></li>
-                    <li className="dropdown dropdown-hover">
+                <ul className="menu text-white menu-horizontal text-lg font-medium">
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="">About</Link></li>
+                    <li><Link to="">Services</Link></li>
+                    <li><Link to="/dashboard/adminHome">Dashboard</Link></li>
+                    {/* <li className="dropdown dropdown-hover">
                         <div tabIndex={0} role="button">Service</div>
                         <ul tabIndex={0} className="dropdown-content z-[1] grid menu p-2 shadow bg-base-100 rounded-box w-52">
                             <li><a>SoftWare Development</a></li>
@@ -54,8 +56,8 @@ const Navbar = () => {
                             <li><a>Product Design</a></li>
                             <li><a>Data Center</a></li>
                         </ul>
-                    </li>
-                    <li className="dropdown dropdown-hover">
+                    </li> */}
+                    {/* <li className="dropdown dropdown-hover">
                         <div tabIndex={0} role="button">Pages</div>
                         <ul tabIndex={0} className="dropdown-content z-[1] grid menu p-2 shadow bg-base-100 rounded-box w-52">
                             <li><a>Services</a></li>
@@ -66,14 +68,14 @@ const Navbar = () => {
                             <li><a>Pricing</a></li>
                             <li><a>Faq</a></li>
                         </ul>
-                    </li>
-                    <li className="dropdown dropdown-end dropdown-hover">
+                    </li> */}
+                    {/* <li className="dropdown dropdown-end dropdown-hover">
                         <div tabIndex={0} role="button">Blog</div>
                         <ul tabIndex={0} className="dropdown-content z-[1] grid menu p-2 shadow bg-base-100 rounded-box w-52">
                             <li><a>Blog</a></li>
                             <li><a>Blog Details</a></li>
                         </ul>
-                    </li>
+                    </li> */}
                     <li><Link to="/contact">Contact</Link></li>
                 </ul>
             </div>

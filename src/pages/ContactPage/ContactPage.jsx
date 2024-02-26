@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import img1 from '../../assets/3 (1).jpg';
 import { FaHome } from "react-icons/fa";
+import { FaLocationDot, FaPhone } from "react-icons/fa6";
 
 const ContactPage = () => {
     return (
@@ -21,7 +22,7 @@ const ContactPage = () => {
                         <h2 className='text-4xl leading-normal pb-5 font-bold'>Speak With Expert Engineers.</h2>
                         {/* email */}
                         <div className='flex items-center gap-7'>
-                            <div className='p-4 bg-slate-200 text-blue-700 rounded-full'><FaHome /></div>
+                            <div className='p-4 bg-slate-200 text-blue-800 rounded-full'><FaHome /></div>
                             <div className='flex flex-col gap-2'>
                                 <p className='font-medium'>Email</p>
                                 <p>shariyer@gmail.com</p>
@@ -29,7 +30,7 @@ const ContactPage = () => {
                         </div>
                         {/* Phone */}
                         <div className='flex items-center gap-7'>
-                            <div className='p-4 bg-slate-200 text-blue-700 rounded-full'><FaHome /></div>
+                            <div className='p-4 bg-slate-200 text-blue-800 rounded-full'><FaPhone /></div>
                             <div className='flex flex-col gap-2'>
                                 <p className='font-medium'>Phone</p>
                                 <p>(123) 222-8888</p>
@@ -37,7 +38,7 @@ const ContactPage = () => {
                         </div>
                         {/* address */}
                         <div className='flex items-center gap-7'>
-                            <div className='p-4 bg-slate-200 text-blue-700 rounded-full'><FaHome /></div>
+                            <div className='p-4 bg-slate-200 text-blue-800 rounded-full'><FaLocationDot /></div>
                             <div className='flex flex-col gap-2'>
                                 <p className='font-medium'>Address:</p>
                                 <p>New Jesrsy, 1201, USA</p>
