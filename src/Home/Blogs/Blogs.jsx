@@ -8,6 +8,7 @@ import { FaRegCalendarCheck } from "react-icons/fa";
 import { LuUser2 } from "react-icons/lu";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import img1 from '../../assets/2.jpg';
+import { Link } from "react-router-dom";
 
 
 const Blogs = () => {
@@ -51,7 +52,7 @@ const Blogs = () => {
                                     <div className="flex items-center gap-2"><span className="text-blue-800"><FaRegCalendarCheck /></span><span>16 Nov 2020</span></div>
                                     <div className="flex items-center gap-2"><span className="text-blue-800"><LuUser2 /></span><span>admin</span></div>
                                 </div>
-                                <h2 className="card-title">Necessity May Give Us Your Best Virtual Court System</h2>
+                                <h2 className="card-title hover:text-blue-700"><Link>Necessity May Give Us Your Best Virtual Court System</Link></h2>
                                 <p className="leading-relaxed py-2">We denounce with rihteous indige nation and dislike men who are so beguiled...</p>
                                 <div className="card-actions justify-start">
                                     <button className="text-lg px-0 font-semibold btn btn-link btn-active text-black"><span>Learn More</span><MdKeyboardArrowRight /></button>
@@ -71,7 +72,7 @@ const Blogs = () => {
                                     <div className="flex items-center gap-2"><span className="text-blue-800"><FaRegCalendarCheck /></span><span>16 Nov 2020</span></div>
                                     <div className="flex items-center gap-2"><span className="text-blue-800"><LuUser2 /></span><span>admin</span></div>
                                 </div>
-                                <h2 className="card-title">Necessity May Give Us Your Best Virtual Court System</h2>
+                                <h2 className="card-title hover:text-blue-700"><Link>Necessity May Give Us Your Best Virtual Court System</Link></h2>
                                 <p className="leading-relaxed py-2">We denounce with rihteous indige nation and dislike men who are so beguiled...</p>
                                 <div className="card-actions justify-start">
                                     <button className="text-lg px-0 font-semibold btn btn-link btn-active text-black"><span>Learn More</span><MdKeyboardArrowRight /></button>
@@ -91,7 +92,7 @@ const Blogs = () => {
                                     <div className="flex items-center gap-2"><span className="text-blue-800"><FaRegCalendarCheck /></span><span>16 Nov 2020</span></div>
                                     <div className="flex items-center gap-2"><span className="text-blue-800"><LuUser2 /></span><span>admin</span></div>
                                 </div>
-                                <h2 className="card-title">Necessity May Give Us Your Best Virtual Court System</h2>
+                                <h2 className="card-title hover:text-blue-700"><Link>Necessity May Give Us Your Best Virtual Court System</Link></h2>
                                 <p className="leading-relaxed py-2">We denounce with rihteous indige nation and dislike men who are so beguiled...</p>
                                 <div className="card-actions justify-start">
                                     <button className="text-lg px-0 font-semibold btn btn-link btn-active text-black"><span>Learn More</span><MdKeyboardArrowRight /></button>
@@ -111,7 +112,7 @@ const Blogs = () => {
                                     <div className="flex items-center gap-2"><span className="text-blue-800"><FaRegCalendarCheck /></span><span>16 Nov 2020</span></div>
                                     <div className="flex items-center gap-2"><span className="text-blue-800"><LuUser2 /></span><span>admin</span></div>
                                 </div>
-                                <h2 className="card-title">Necessity May Give Us Your Best Virtual Court System</h2>
+                                <h2 className="card-title hover:text-blue-700"><Link>Necessity May Give Us Your Best Virtual Court System</Link></h2>
                                 <p className="leading-relaxed py-2">We denounce with rihteous indige nation and dislike men who are so beguiled...</p>
                                 <div className="card-actions justify-start">
                                     <button className="text-lg px-0 font-semibold btn btn-link btn-active text-black"><span>Learn More</span><MdKeyboardArrowRight /></button>

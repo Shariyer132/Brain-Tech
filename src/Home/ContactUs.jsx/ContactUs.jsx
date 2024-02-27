@@ -1,6 +1,7 @@
 import { FaPhoneAlt } from 'react-icons/fa';
-import img1 from '../../assets/contact-here.png';
 import { Link } from 'react-router-dom';
+import CountUp from "react-countup";
+import img1 from '../../assets/contact-here.png';
 import img2 from '../../assets/counter-bg.png';
 
 const ContactUs = () => {
@@ -23,20 +24,23 @@ const ContactUs = () => {
                 </div>
             </div>
             <div className='max-w-4xl  mx-auto my-10 lg:absolute right-20 -bottom-20 w-full'>
-                <div className='flex md:flex-row flex-col gap-7 mx-10  items-center justify-around bg-white py-10 rounded-lg shadow-2xl' style={{backgroundImage: `url(${img2})`}}>
+                <div className='flex md:flex-row flex-col gap-7 mx-10  items-center justify-around bg-white py-10 rounded-lg shadow-2xl' style={{ backgroundImage: `url(${img2})` }}>
 
                     <div className="flex flex-col items-center gap-2">
-                        <div className="font-bold text-5xl text-blue-900">80k</div>
+                        <div className="font-bold text-5xl text-blue-900">
+                            <CountUp duration={8} enableScrollSpy={true} className="counter" end={80} />
+                            <span>k</span>
+                        </div>
                         <div className='font-semibold text-lg'>Happy Clients</div>
                     </div>
 
                     <div className="flex flex-col items-center gap-2">
-                        <div className="font-bold text-5xl text-blue-900">50+</div>
+                        <div className="font-bold text-5xl text-blue-900"><CountUp duration={8} enablescrollSpy={true} className="counter" end={50} /><span>+</span></div>
                         <div className="font-semibold text-lg">Companies</div>
                     </div>
 
                     <div className="flex flex-col items-center gap-2">
-                        <div className="font-bold text-5xl text-blue-900">230+</div>
+                    <div className="font-bold text-5xl text-blue-900"><CountUp duration={8} enablescrollSpy={true} className="counter" end={230} /><span>+</span></div>
                         <div className="font-semibold text-lg">Projects Done</div>
                     </div>
 

@@ -2,6 +2,7 @@ import img1 from '../../assets/about-part-1.png';
 import img2 from '../../assets/about-part-2.png';
 import img3 from '../../assets/about-part-3.png';
 
+
 const AboutUs = () => {
     return (
         <div className='flex flex-col md:flex-row px-5 gap-4 justify-center items-center md:pt-20 md:pb-44 py-20'>
@@ -28,6 +29,7 @@ const AboutUs = () => {
                         <p>Software Development</p>
                         <p>92%</p>
                     </div>
+                        
                     <progress className="progress progress-info" value={92} max="100"></progress>
                 </div>
                 <div className='w-full max-w-lg'>
@@ -52,7 +54,7 @@ const AboutUs = () => {
                     <progress className="progress progress-info" value={78} max="100"></progress>
                 </div>
                 <div>
-                    <button className='btn bg-gradient-to-tr from-[#0F359E] to-[#4E95ED] hover:from-[#4E95ED] hover:to-[#0F359E] border-0 text-white px-9 rounded-full text-lg'>Learn More</button>
+                    <button className='btn bg-gradient-to-tr from-[#0F359E] to-[#4E95ED] hover:from-[#4E95ED] hover:to-[#0F359E] border-0 text-white px-9 rounded-full'>Learn More</button>
                 </div>
             </div>
         </div>
