@@ -38,14 +38,14 @@ const Blogs = () => {
                     pagination={{
                         clickable: true,
                     }}
-                    className="mySwiper hidden md:block"
+                    className="mySwiper"
                 >
                     {/* one */}
                     <SwiperSlide>
-                        <div className="card bg-base-100 mt-10 mb-4 shadow-[#F4F8FE] shadow-xl hover:-translate-y-4 duration-700">
+                        <div className="card bg-base-100 mt-10 mb-4 mx-1 shadow-[#F4F8FE] shadow-xl hover:-translate-y-4 duration-700">
                             <figure className="p-4 h-1/2 relative">
                                 <img src={img1} alt="Shoes" className="rounded-lg" />
-                                <button className="btn bg-gradient-to-tr from-[#0F359E] to-[#4E95ED] hover:from-[#4E95ED] hover:to-[#0F359E] px-6 text-white border-0 rounded-full absolute right-8 bottom-7">It Services</button>
+                                <button className="btn bg-gradient-to-tr from-[#0F359E] to-[#4E95ED] hover:from-[#4E95ED] hover:to-[#0F359E] sm:px-6 text-white border-0 rounded-full absolute right-8 bottom-7">It Services</button>
                             </figure>
                             <div className="card-body h-1/2">
                                 <div className="flex gap-3">
@@ -62,10 +62,10 @@ const Blogs = () => {
                     </SwiperSlide>
                     {/* two */}
                     <SwiperSlide>
-                        <div className="card bg-base-100 mt-10 mb-4 shadow-[#F4F8FE] shadow-xl hover:-translate-y-4 duration-700">
+                        <div className="card bg-base-100 mx-1 mt-10 mb-4 shadow-[#F4F8FE] shadow-xl hover:-translate-y-4 duration-700">
                             <figure className="p-4 h-1/2 relative">
                                 <img src={img1} alt="Shoes" className="rounded-lg" />
-                                <button className="btn bg-gradient-to-tr from-[#0F359E] to-[#4E95ED] hover:from-[#4E95ED] hover:to-[#0F359E] px-6 text-white border-0 rounded-full absolute right-8 bottom-7">It Services</button>
+                                <button className="btn bg-gradient-to-tr from-[#0F359E] to-[#4E95ED] hover:from-[#4E95ED] hover:to-[#0F359E] sm:px-6 text-white border-0 rounded-full absolute right-8 bottom-7">It Services</button>
                             </figure>
                             <div className="card-body h-1/2">
                                 <div className="flex gap-3">
@@ -82,10 +82,10 @@ const Blogs = () => {
                     </SwiperSlide>
                     {/* three */}
                     <SwiperSlide>
-                        <div className="card bg-base-100 mt-10 mb-4 shadow-[#F4F8FE] shadow-xl hover:-translate-y-4 duration-700">
+                        <div className="card bg-base-100 mx-1 mt-10 mb-4 shadow-[#F4F8FE] shadow-xl hover:-translate-y-4 duration-700">
                             <figure className="p-4 h-1/2 relative">
                                 <img src={img1} alt="Shoes" className="rounded-lg" />
-                                <button className="btn bg-gradient-to-tr from-[#0F359E] to-[#4E95ED] hover:from-[#4E95ED] hover:to-[#0F359E] px-6 text-white border-0 rounded-full absolute right-8 bottom-7">It Services</button>
+                                <button className="btn bg-gradient-to-tr from-[#0F359E] to-[#4E95ED] hover:from-[#4E95ED] hover:to-[#0F359E] sm:px-6 text-white border-0 rounded-full absolute right-8 bottom-7">It Services</button>
                             </figure>
                             <div className="card-body h-1/2">
                                 <div className="flex gap-3">
@@ -102,10 +102,10 @@ const Blogs = () => {
                     </SwiperSlide>
                     {/* four */}
                     <SwiperSlide>
-                        <div className="card bg-base-100 mt-10 mb-4 shadow-[#F4F8FE] shadow-xl hover:-translate-y-4 duration-700">
+                        <div className="card bg-base-100 mx-1 mt-10 mb-4 shadow-[#F4F8FE] shadow-xl hover:-translate-y-4 duration-700">
                             <figure className="p-4 h-1/2 relative">
                                 <img src={img1} alt="Shoes" className="rounded-lg" />
-                                <button className="btn bg-gradient-to-tr from-[#0F359E] to-[#4E95ED] hover:from-[#4E95ED] hover:to-[#0F359E] px-6 text-white border-0 rounded-full absolute right-8 bottom-7">It Services</button>
+                                <button className="btn bg-gradient-to-tr from-[#0F359E] to-[#4E95ED] hover:from-[#4E95ED] hover:to-[#0F359E] sm:px-6 text-white border-0 rounded-full absolute right-8 bottom-7">It Services</button>
                             </figure>
                             <div className="card-body h-1/2">
                                 <div className="flex gap-3">

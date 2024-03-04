@@ -17,9 +17,9 @@ const ContactUs = () => {
                             <FaPhoneAlt />
                         </div>
                         <h5 className='text-xl font-bold'>CALL US 24/7</h5>
-                        <h1 className="text-5xl font-bold pt-4">(+888) 01886600369</h1>
-                        <p className="py-6 text-center text-lg max-w-lg leading-loose">Have any idea or project for in your mind call us or schedule a appointment. Our representative will reply you shortly.</p>
-                        <button className="btn border-0 rounded-full bg-gradient-to-tr from-[#0F359E] to-[#4E95ED] hover:from-[#4E95ED] hover:to-[#0F359E] text-lg text-white px-9"><Link to="/contact">Let's Talk</Link></button>
+                        <h1 className="sm:text-5xl sm:font-bold font-semibold text-2xl pt-4">(+888) 01886600369</h1>
+                        <p className="py-6 text-center sm:text-lg max-w-lg leading-loose">Have any idea or project for in your mind call us or schedule a appointment. Our representative will reply you shortly.</p>
+                        <button className="btn border-0 rounded-full bg-gradient-to-tr from-[#0F359E] to-[#4E95ED] hover:from-[#4E95ED] hover:to-[#0F359E] sm:text-lg text-white sm:px-9"><Link to="/contact">Let's Talk</Link></button>
                     </div>
                 </div>
             </div>

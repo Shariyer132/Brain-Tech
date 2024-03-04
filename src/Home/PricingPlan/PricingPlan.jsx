@@ -8,7 +8,7 @@ const PricingPlan = () => {
     return (
         <div>
             <Header header='Our Pricing Plan' subHeader='PRICING' />
-            <div className="flex flex-wrap justify-center py-20 pb-36 gap-8 max-w-7xl mx-auto">
+            <div className="flex flex-wrap justify-center py-20 pb-36 gap-8 max-w-7xl mx-3 sm:mx-auto">
                 {/* card one */}
                 <div className="card w-96 bg-base-100 shadow-xl relative">
                     <figure className="flex">
@@ -18,9 +18,9 @@ const PricingPlan = () => {
                     <div className="text-center py-10 border-b mx-8">
                         <div className="flex justify-center items-baseline">
                             <span className="text-2xl"><FaDollarSign /></span>
-                            <h2 className="text-6xl font-semibold">29.99</h2>
+                            <h2 className="sm:text-6xl text-5xl font-semibold">29.99</h2>
                         </div>
-                        <p className="text-lg">Monthly Package</p>
+                        <p className="sm:text-lg">Monthly Package</p>
                     </div>
                     <div className="max-w-72 mx-auto w-full flex flex-col gap-5 py-10">
                         <div className="flex items-center justify-between">
@@ -56,9 +56,9 @@ const PricingPlan = () => {
                     <div className="text-center py-10 border-b mx-8">
                         <div className="flex justify-center items-baseline">
                             <span className="text-2xl"><FaDollarSign /></span>
-                            <h2 className="text-6xl font-semibold">39.99</h2>
+                            <h2 className="sm:text-6xl text-5xl font-semibold">39.99</h2>
                         </div>
-                        <p className="text-lg">Monthly Package</p>
+                        <p className="sm:text-lg">Monthly Package</p>
                     </div>
                     <div className="max-w-72 mx-auto w-full flex flex-col gap-5 py-10">
                         <div className="flex items-center justify-between">
@@ -94,9 +94,9 @@ const PricingPlan = () => {
                     <div className="text-center py-10 border-b mx-8">
                         <div className="flex justify-center items-baseline">
                             <span className="text-2xl"><FaDollarSign /></span>
-                            <h2 className="text-6xl font-semibold">79.99</h2>
+                            <h2 className="sm:text-6xl text-5xl font-semibold">79.99</h2>
                         </div>
-                        <p className="text-lg">Monthly Package</p>
+                        <p className="sm:text-lg">Monthly Package</p>
                     </div>
                     <div className="max-w-72 mx-auto w-full flex flex-col gap-5 py-10">
                         <div className="flex items-center justify-between">

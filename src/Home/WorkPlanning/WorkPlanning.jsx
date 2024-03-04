@@ -13,28 +13,28 @@ const WorkPlanning = () => {
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 md:px-5 gap-5 px-10 place-items-center'>
                 {/* card one */}
-                <div className='flex flex-col gap-4'>
+                <div className='flex flex-col items-center md:items-start gap-4'>
                     <h2 className='text-5xl font-bold'>1.</h2>
                     <h5 className='text-xl font-semibold'>Discovery</h5>
-                    <p>Quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh luctus, in porttitor theo lacus egestas.</p>
+                    <p className='text-center md:text-left'>Quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh luctus, in porttitor theo lacus egestas.</p>
                 </div>
                 {/* card two */}
-                <div className='flex flex-col gap-4'>
+                <div className='flex flex-col items-center md:items-start gap-4'>
                     <h2 className='text-5xl font-bold'>2.</h2>
                     <h5 className='text-xl font-semibold'>Discovery</h5>
-                    <p>Quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh luctus, in porttitor theo lacus egestas.</p>
+                    <p className='text-center md:text-left'>Quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh luctus, in porttitor theo lacus egestas.</p>
                 </div>
                 {/* card three */}
-                <div className='flex flex-col gap-4'>
+                <div className='flex flex-col items-center md:items-start gap-4'>
                     <h2 className='text-5xl font-bold'>3.</h2>
                     <h5 className='text-xl font-semibold'>Discovery</h5>
-                    <p>Quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh luctus, in porttitor theo lacus egestas.</p>
+                    <p className='text-center md:text-left'>Quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh luctus, in porttitor theo lacus egestas.</p>
                 </div>
                 {/* card four */}
-                <div className='flex flex-col gap-4'>
+                <div className='flex flex-col items-center md:items-start gap-4'>
                     <h2 className='text-5xl font-bold'>4.</h2>
                     <h5 className='text-xl font-semibold'>Discovery</h5>
-                    <p>Quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh luctus, in porttitor theo lacus egestas.</p>
+                    <p className='text-center md:text-left'>Quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh luctus, in porttitor theo lacus egestas.</p>
                 </div>
 
             </div>

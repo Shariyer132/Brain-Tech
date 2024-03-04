@@ -2,13 +2,13 @@ import banner from '../../assets/banner-1.jpg';
 
 const Banner = () => {
     return (
-        <div className="lg:min-h-[765px] min-h-[1150px] bg-cover px-2 lg:mb-10 lg:px-8 flex lg:flex-row flex-col lg:justify-around items-center" style={{ backgroundImage: `url(${banner})` }}>
+        <div className="lg:min-h-[765px] sm:min-h-[1150px] min-h-[1250px] bg-cover px-2 lg:mb-10 lg:px-8 flex lg:flex-row flex-col lg:justify-around items-center" style={{ backgroundImage: `url(${banner})` }}>
             {/* texts */}
             <div className="hero-content py-10 text-center text-neutral-content lg:pb-56">
-                <div className="max-w-xl text-left">
-                    <h1 className="mb-5 text-5xl leading-snug font-bold">IT Consulting Services For Your Business</h1>
-                    <p className="mb-5 text-lg font-medium leading-normal">We are leading technology solutions providing company all over the world doing over 40 years.</p>
-                    <button className="btn bg-gradient-to-tr from-[#0F359E] text-white to-[#4E95ED] border-0">Get Started</button>
+                <div className="max-w-xl lg:text-left flex flex-col items-center lg:items-start">
+                    <h1 className="mb-5 sm:text-5xl sm:leading-snug text-4xl font-bold">IT Consulting Services For Your Business</h1>
+                    <p className="mb-5 sm:text-lg sm:font-medium sm:leading-normal">We are leading technology solutions providing company all over the world doing over 40 years.</p>
+                    <div><button className="btn bg-gradient-to-tr from-[#0F359E] text-white to-[#4E95ED] border-0">Get Started</button></div>
                 </div>
             </div>
             {/* form */}

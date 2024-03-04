@@ -16,14 +16,14 @@ const AboutUs = () => {
                 </div>
 
             </div>
-            <div className='md:w-1/2 flex flex-col gap-7'>
+            <div className='md:w-1/2 flex flex-col items-center md:items-start gap-7'>
                 <div className='flex gap-3 items-center'>
                     <div className='w-3 h-1 bg-blue-800'></div>
                     <div className='w-12 h-1 bg-blue-800'></div>
                     <h6 className='text-blue-800'>ABOUT US</h6>
                 </div>
-                <h2 className='max-w-2xl text-4xl font-bold'>We Are Increasing Business Success With Technology</h2>
-                <p className='text-lg max-w-xl'>Over 25 years working in IT services developing software applications and mobile apps for clients all over the world.</p>
+                <h2 className='max-w-2xl text-center md:text-left text-4xl sm:font-bold font-semibold'>We Are Increasing Business Success With Technology</h2>
+                <p className='sm:text-lg max-w-xl text-center md:text-left'>Over 25 years working in IT services developing software applications and mobile apps for clients all over the world.</p>
                 <div className='w-full max-w-lg'>
                     <div className='flex items-center justify-between'>
                         <p>Software Development</p>

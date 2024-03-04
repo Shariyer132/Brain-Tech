@@ -43,8 +43,9 @@ const Navbar = () => {
             <div className="flex-none hidden md:block">
                 <ul className="menu text-white menu-horizontal text-lg font-medium">
                     <li><Link to="/">Home</Link></li>
-                    <li><Link to="">About</Link></li>
-                    <li><Link to="">Services</Link></li>
+                    <li><Link to="/aboutUs">About</Link></li>
+                    <li><Link to="/shop">Shop</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
                     <li><Link to="/dashboard/adminHome">Dashboard</Link></li>
                     {/* <li className="dropdown dropdown-hover">
                         <div tabIndex={0} role="button">Service</div>
@@ -76,7 +77,6 @@ const Navbar = () => {
                             <li><a>Blog Details</a></li>
                         </ul>
                     </li> */}
-                    <li><Link to="/contact">Contact</Link></li>
                 </ul>
             </div>
         </div >

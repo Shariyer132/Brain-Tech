@@ -11,9 +11,12 @@ import CreateProduct from "../Dashboard/CreateProduct/CreateProduct";
 import ManageUsers from "../Dashboard/ManageUsers/ManageUsers";
 import SingleUser from "../Dashboard/ManageUsers/SingleUser";
 import Dashboard from "../layouts/Dashboard";
-import Shop from "../pages/Shop/Shop";
 import ContactPage from "../pages/ContactPage/ContactPage";
-
+import SingleShop from '../pages/Shop/SingleShop';
+import Shop from "../pages/Shop/Shop";
+import AboutPage from "../pages/AboutPage/AboutPage";
+import SignUp from "../pages/SignUp/SignUp";
+import Login from "../pages/Login/Login";
 
 
 export const router = createBrowserRouter([
@@ -31,8 +34,16 @@ export const router = createBrowserRouter([
                 element: <ContactPage/>
             },
             {
+                path: "/singleShop",
+                element: <SingleShop/>
+            },
+            {
                 path: "/shop",
                 element: <Shop/>
+            },
+            {
+                path: "/aboutUs",
+                element: <AboutPage/>
             }
         ]
     },
@@ -74,5 +85,13 @@ export const router = createBrowserRouter([
                 element: <SingleUser/>
             }
         ]
+    },
+    {
+        path:"/signup",
+        element: <SignUp/>
+    },
+    {
+        path:"/login",
+        element: <Login/>
     }
 ])

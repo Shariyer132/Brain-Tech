@@ -13,8 +13,8 @@ const Projects = () => {
             <div className="min-h-screen pb-10 mb-16  bg-[#000060] pt-28 relative group" >
                 <div className='max-w-7xl mx-auto'>
                     <p className="text-center text-white">PROJECT</p>
-                    <h2 className="text-4xl font-bold text-center mx-auto py-5 pb-12 leading-tight text-white max-w-lg">We Are Offering All Kinds of IT Solutions Services</h2>
-                    <div className=' px-5'>
+                    <h2 className="sm:text-4xl text-3xl font-bold text-center mx-auto py-5 pb-12 leading-tight text-white max-w-lg">We Are Offering All Kinds of IT Solutions Services</h2>
+                    <div className='px-5'>
                         <Swiper
                             breakpoints={{
                                 890: {

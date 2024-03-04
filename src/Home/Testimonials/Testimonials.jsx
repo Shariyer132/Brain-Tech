@@ -12,7 +12,7 @@ import Header from '../../components/Header/Header';
 export default function Testimonials() {
     return (
         <div className='bg-[#F6F7F9]'>
-            <div className='max-w-7xl mx-auto px-5 py-32 bg-[#F6F7F9]'>
+            <div className='max-w-7xl mx-auto py-32 bg-[#F6F7F9]'>
                 <div className='pb-12'>
                     <Header header='What Saying Our Customers' subHeader="TESTIMONIAL" />
                 </div>
@@ -33,7 +33,7 @@ export default function Testimonials() {
                         clickable: true,
                     }}
                     modules={[Pagination]}
-                    className="mySwiper hidden md:block"
+                    className="mySwiper"
                 >
                     {/* one */}
                     <SwiperSlide>
