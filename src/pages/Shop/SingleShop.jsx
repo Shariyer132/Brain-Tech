@@ -39,7 +39,7 @@ const SingleShop = () => {
             </div>
             {/* Review form */}
             <div className='max-w-7xl mx-auto'>
-                <div tabIndex={0} className="collapse">
+                <div tabIndex={0} className="collapse collapse-open">
                     <div className="collapse-title text-blue-600">
                         Description Reviews <span>(0)</span>
                         <hr className='border-1 my-2' />
